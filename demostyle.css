@@ -1,0 +1,111 @@
+body{
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+.container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+header{
+    padding:0px;
+    border-bottom: 1px solid white; 
+    min-height: 70px;
+    /* background-color: gray; */
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+header ul{
+    margin: 0;
+    padding-top: 10px;
+
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand{
+    float: left;
+}
+header #brand h1{
+    margin: 0;
+    color: white;
+}
+header nav{
+    float: right;
+}
+header a:hover{
+    color: blue;
+    font-weight: bold;
+
+}
+#firstbox{
+    min-height: 400px;
+    background: url(file:///Users/sivanipapini/Desktop/kaitlyn-baker-vZJdYl5JVXY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.9;
+    color:white;
+    
+}
+.insidefirst{
+    text-align: center;
+    padding-top: 40px;
+}
+.insidefirst h1{
+    font-size: 45px;
+}
+button:hover{
+background:gray;
+}
+hr{
+    border: 0;
+    height: 0;
+    width: 80%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+#boxes{
+    margin-top: 20px;
+    margin-bottom: 0.5px solid black;
+
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+
+}
+#boxes .box img{
+    width: 150px;
+}
+
+.clr{
+    clear: both;
+}
+
+.clr footer{
+        padding: 10px;
+        margin-top: 20px;
+        color: #ffffff;
+        background-color: lightblue;
+        text-align: center;
+    
+}
